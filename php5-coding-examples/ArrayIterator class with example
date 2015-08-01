@@ -34,7 +34,8 @@ $a = array(1, 2, 3);
 
 $o = newArrayIterator($a);
 
-foreach($oas$key =>$val) {
+foreach($o as $key =>$val) {
+
 	echo "$key => $va<br/>";
 }
 
