@@ -27,6 +27,7 @@ class WordCounter	{
 }
 
 $wordcounter = new Wordcounter('test.txt');
+
 $wordcounter->count(WordCounter::DESC); // can use also $wordcounter->count(1); and $wordcounter->count("1"); both work !!!!
 
 /* output:
