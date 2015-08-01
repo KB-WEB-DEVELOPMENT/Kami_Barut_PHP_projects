@@ -1,0 +1,32 @@
+<?php
+
+// reading a formatted file line by line
+
+$fo= new SplFileObject($file);
+
+$fo->setFlags(SplFileObject::DROP_NEWLINE);
+
+$data = array();
+
+foreach ($fo as $l) {
+    
+    if ( /*** CHECK DATA ***/ ) {
+        
+        throw newException();
+        
+    }
+    
+    $data[] =$l; 
+}
+
+/* CHECK DATA
+
+preg_match($regex,$l)         UnexpectValueException
+
+count($l=split(',',$l)) !=3   RangeException
+
+count($data) >100             Overflow Exception
+
+*/
+
+?>
