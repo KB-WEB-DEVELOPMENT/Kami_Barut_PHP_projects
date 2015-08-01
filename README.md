@@ -1,5 +1,5 @@
 # php projects
 
-Various OOP PHP projects.
+Various PHP projects.
 
-Kami Barut-Wanayo web developer & designer : www.kamibarut.de
+Kami Barut-Wanayo web developer & web designer : www.kamibarut.de
