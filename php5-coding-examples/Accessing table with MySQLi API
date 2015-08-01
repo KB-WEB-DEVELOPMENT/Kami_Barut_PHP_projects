@@ -1,0 +1,22 @@
+<?php
+
+// selecting data from a table using MySQLi API
+
+$mysqli = new mysqli("localhost", "un" "pwd", "db");
+
+if (mysqli_connect_errno()) {
+	echo("Failed to connect, the error message is : ".
+	mysqli_connect_error());
+	exit();
+}
+
+/* close connection */
+
+$result = $mysqli ->query("select * from users");
+
+while ($data = $result->fetch_object())	{
+
+	echo $data->name." : '".$data->pass."' \n";
+}
+
+?>
