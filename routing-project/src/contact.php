@@ -5,7 +5,7 @@
 		public function__construct()	{
 			
 			echo "This is the contact page.";
-			$this->_other();
+			//$this->_other();
 		}
 			
 		public function  _other()	{
