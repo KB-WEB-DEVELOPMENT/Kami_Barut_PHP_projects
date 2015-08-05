@@ -20,9 +20,10 @@
 	}
 		
 		/**
-		*    reads uri, checks against known routes, routes to correct url or '/'
-		* 
+		*    reads uri, checks the uri, in the case the last if statement is true, instantiates 
+		*    one of the three classes. In the case it is false, calls one the three callback functions in index.php
 		*/
+		
 		public function submit()	{
 			
 			$uriGetParam = $isset(GET['uri']) ? $_GET['uri'] : '/';
