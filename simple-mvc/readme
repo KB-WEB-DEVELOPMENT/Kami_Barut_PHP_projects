@@ -1,0 +1,5 @@
+Source code for Model View Controller Tutorial with DB CRUD in PHP: 
+
+Note: The function call (line 18 in the file Controller.php) prevents the application from calling all rows in the DB table.
+
+$books saves only the last table row.
