@@ -1,9 +1,9 @@
 <?php 
 	
 	include 'route.php';
-	// include 'src/home.php';
-	// include 'src/about.php';
-	// include 'src/contact.php';
+	include 'src/home.php';
+	include 'src/about.php';
+	include 'src/contact.php';
 
 	$route = new Route();
 
