@@ -1,8 +1,7 @@
-# php projects
+# Kami Barut-Wanayo --  web developer 
+#
+# PHP projects : www.kamibarut.de
 
-Various PHP projects.
-
-Kami Barut-Wanayo web developer & web designer : www.kamibarut.de
 
 Sample: OOP PHP composition and coupling Structure Modeling
 
