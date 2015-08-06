@@ -14,7 +14,7 @@ Sample: OOP PHP composition and coupling Structure Modeling
 
 // 1. CLIENT
 
-$formObj = new From();
+$formObj = new Form();
 $validatorObj = new Validate();
 
 $formObj->post['name'];
