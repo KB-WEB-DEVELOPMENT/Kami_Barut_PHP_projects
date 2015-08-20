@@ -6,6 +6,8 @@ The user is asked to select one of the arithmetic operations (+,-,*,/) and enter
 
 The result of the operation is displayed underneath. 
 
-The code is not really clean as some methods in CalculatorController.php could be merged with others in the same conroller.
+The code is not really clean as some methods in CalculatorController.php could be merged with others
+
+in the same conroller.
 
 It was successfully tested.
