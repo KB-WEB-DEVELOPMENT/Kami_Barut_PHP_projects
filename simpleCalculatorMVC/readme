@@ -1,0 +1,11 @@
+This is a simple PHP application based on the MVC (Model - View - Controller) programing structure.
+
+It was programed  by I. Castro (copyrights) for Xenframework (www.xenframework.com)
+
+The user is asked to select one of the arithmetic operations (+,-,*,/) and enter two digits.
+
+The result of the operation is displayed underneath. 
+
+The code is not really clean as some methods in CalculatorController.php could be merged with others in the same conroller.
+
+It was successfully tested.
