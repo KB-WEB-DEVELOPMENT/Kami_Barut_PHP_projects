@@ -8,6 +8,6 @@ The result of the operation is displayed underneath.
 
 The code is not really clean as some methods in CalculatorController.php could be merged with others
 
-in the same conroller.
+in the same controller.
 
 It was successfully tested.
