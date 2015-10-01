@@ -15,14 +15,13 @@ Sample: OOP PHP composition and coupling Structure Modeling
 
 $formObj = new Form();
 
-$validatorObj = new Validate();
-
 $formObj->post['name'];
 
 $formObj->post['age'];
 
 $formObj->number['age'];
 
+$validatorObj = new Validate();
 
 
 // 2. FORM
