@@ -12,6 +12,7 @@ Technologies used:
 3.3 user can see additional information about each movie, i.e.: its genre and comments added by other users
 
 Ressources:
+--------------
 
 4.1 RESTful Web services providing data for client application 
 
@@ -22,15 +23,26 @@ Ressources:
 -  POST  http://localhost:8080/moviesweb/rest/movies/movieid   (lists additional data about each movie and users'comments)
  
 5. Folders/Files structure
+----------------------------
 
 REST_API_WebService_Example/css/style.css
 
-REST_API_WebService_Example/js/js.js  (contains the getMoreDataForMovie() function)
-                                                        /modal.js (contains the jquery addCommentDialog(), closedialog() and submitcomment() functions)
-			 /query-ui-1.8.17.custom.min.js  (needed for jquery)
-			//query-1.7.1min.js (needed for jquery)
+REST_API_WebService_Example/js/
 
-REST_API_WebService_Example/Rest.php        (The Rest class, contains the curl_get_call($url) and curl_post_call($url, $data) functions)
-			/movies.php    (displays the list of movies)	
-		                 /add_comment.php (calls the modal dialog popup to add a comment)
-		                 /processcomment.php (processes and stores the comment)
+query-ui-1.8.17.custom.min.js  (needed for jquery)
+
+query-1.7.1min.js (needed for jquery)
+
+js.js  (contains the getMoreDataForMovie() function)
+                                                        
+modal.js (contains the jquery addCommentDialog(), closedialog() and submitcomment() functions)
+
+REST_API_WebService_Example/
+
+Rest.php (The Rest class, contains the curl_get_call($url) and curl_post_call($url, $data) functions)
+		
+movies.php (displays the list of movies)	
+		                 
+add_comment.php (calls the modal dialog popup to add a comment)
+		                 
+processcomment.php (processes and stores the comment)
