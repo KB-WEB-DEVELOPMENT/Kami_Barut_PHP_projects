@@ -14,11 +14,11 @@
 			curl_setopt($handle, CURLOPT_SSL_VERIFYHOST, false);
 			curl_setopt($handle, CURLOPT_SSL_VERIFYPEER, false);
 
-			$reponse = curl_exec($handle);
+			$response = curl_exec($handle);
 			
 			$code = curl_getinfo($handle, CURLINFO_HTTP_CODE);
 
-			return $reponse; 
+			return $response; 
 
 		}
 
@@ -37,11 +37,11 @@
 			curl_setopt($handle, CURLOPT_POST, true);
 			curl_setopt($handle, CURLOPT_POSTFIELDS, $data);
 
-			$reponse = curl_exec($handle);
+			$response = curl_exec($handle);
 			
 			$code = curl_getinfo($handle, CURLINFO_HTTP_CODE);
 
-			return $reponse; 
+			return $response; 
 
 		}
 
