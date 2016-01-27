@@ -12,12 +12,12 @@ namespace REST_API_WebService_Example;
 	echo "<!DOCTYPE html>" .
 			"<html>" 	.
 				"<head>"	.
-					'<script type=\"text/javascript"' . 'src=\"js/query-1.7.1min.js"></script>' .
-					'<script type=\"text/javascript"' . 'src=\"js/query-ui-1.8.17.custom.min.js"></script>'	.
-					'<script type=\"text/javascript"' . 'src=\"js/js.js"></script>'	.
-					'<script type=\"text/javascript"' . 'src=\"js/modal.js"></script>'	.
-					'<link rel=\"stylesheet"' . 'type="text/css"' . 'href=\"css/style.css"/>' 	.
-					'<link rel=\"stylesheet"' . 'type="text/css"' . 'href=\"css/jquery-ui-1.8.17.custom.css" />'	. 
+					'<script type="text/javascript"' . 'src="js/query-1.7.1min.js"></script>' .
+					'<script type="text/javascript"' . 'src="js/query-ui-1.8.17.custom.min.js"></script>'	.
+					'<script type="text/javascript"' . 'src="js/js.js"></script>'	.
+					'<script type="text/javascript"' . 'src="js/modal.js"></script>'	.
+					'<link rel="stylesheet"' . 'type="text/css"' . 'href="css/style.css"/>' 	.
+					'<link rel="stylesheet"' . 'type="text/css"' . 'href="css/jquery-ui-1.8.17.custom.css" />'	. 
 				"</head>"	.
 				"<body>"	.
 					"<div>" .
@@ -38,11 +38,11 @@ namespace REST_API_WebService_Example;
 								 		"<div>&nbsp;"  . $movie->name . "</div>" .
 								 		"<div>&nbsp;"  . $movie->release_date . "</div>" .
 								 		'<div>
-								 			<p' .  'onclick=\"' . 'addCommentDialog(\"' . $movie->id . ',' . urlencode($movie->name) . '\"); return false;>
+								 			<p' .  'onclick="' . 'addCommentDialog("' . $movie->id . ',' . urlencode($movie->name) . ' "); return false;>
 					                     		Add Comments
 					                     	</p>
 					                     	&nbsp;&nbsp
-					                     	<p id="more"' . $movie->id . 'onclick=\"getMoreDataForMovie(\"' . $movie->id . '\"); return false;>
+					                     	<p id="more"' . $movie->id . 'onclick="getMoreDataForMovie("' . $movie->id . '"); return false;>
 					                     		More
 					                     	</p> 	
 					                    </div>
