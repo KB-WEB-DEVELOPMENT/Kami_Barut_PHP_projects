@@ -7,9 +7,15 @@ Technologies used:
 
 3. Create client application using RESTful web service. 
 
-3.1 gets a list of all movies, presents it as a list (with a movie title and a release date for each movie)
+3.1 gets a list of all movies, presents it as a list
+
+(with a movie title and a release date for each movie)
+
 3.2 user can add a comment for each movie
-3.3 user can see additional information about each movie, i.e.: its genre and comments added by other users
+
+3.3 user can see additional information about each movie 
+
+(its genre and comments added by other users)
 
 Ressources:
 --------------
