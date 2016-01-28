@@ -3,7 +3,7 @@
 class ImageResize 	{
 
 
-	private	    $original_image; 
+	private	$original_image; 
 	private	$recreated_image;
 	private	$path;	
 	private	$filename;	
