@@ -46,7 +46,7 @@
   
  $playerAdapter = new PlayerAdapter($player);
   
- echo 'INFORMATION ABOUT PLAYER AND CLUB: ' . $bookAdapter->getAuthorAndTitle(); 
+ echo 'INFORMATION ABOUT PLAYER AND CLUB: ' . $playerAdapter->getNameAndClub(); 
  
  // output: INFORMATION ABOUT PLAYER AND CLUB: Neymar plays for FC Barcelona 
 
